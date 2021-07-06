@@ -12,7 +12,7 @@ h1{
 .another-one{
     color: darkgreen;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -40,4 +40,33 @@ section{
     background-image: url(images/dream-bg.png);
     background-position: right;
     background-repeat: no-repeat;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 20px 40px grey;
+    padding-left: 20px;
+    border-radius: 5px;  
+    
+}
+h2{
+    font-size: 40px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#web-dev-exp{
+    border-image: linear-gradient(blue,cyan);
+    border-left: 8px solid;
+    border-image-slice: 1;
+
+}
+#web-develper-exp{
+    border-image: linear-gradient(tomato , red);
+    border-left: 8px solid;
+    border-image-slice: 1;
 }
